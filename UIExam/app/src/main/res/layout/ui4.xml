@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content" android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="10dp"/>
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="4"
+        android:rowCount="6"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/mc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MC" />
+        <Button
+            android:id="@+id/mjia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="M+"/>
+        <Button
+            android:id="@+id/mjian"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="M-"/>
+        <Button
+            android:id="@+id/mr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MR"/>
+
+        <Button
+            android:id="@+id/c"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="C"/>
+        <Button
+            android:id="@+id/jiajian"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+/-"/>
+        <Button
+            android:id="@+id/chu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="/"/>
+        <Button
+            android:id="@+id/cheng"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+"/>
+
+
+        <Button
+            android:id="@+id/number_7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="7"/>
+        <Button
+            android:id="@+id/number_8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="8"/>
+        <Button
+            android:id="@+id/number_9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="9"/>
+        <Button
+            android:id="@+id/jian"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="-"/>
+
+
+        <Button
+            android:id="@+id/number_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4"/>
+        <Button
+            android:id="@+id/number_5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5"/>
+        <Button
+            android:id="@+id/number_6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="6"/>
+        <Button
+            android:id="@+id/plus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+"/>
+
+        <Button
+            android:id="@+id/number_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1"/>
+        <Button
+            android:id="@+id/number_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2"/>
+        <Button
+            android:id="@+id/number_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3"/>
+
+        <Button
+            android:id="@+id/number_calc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_rowSpan="2"
+            android:layout_gravity="fill_vertical"
+            android:text="=" />
+
+        <Button
+            android:id="@+id/number_0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="fill_horizontal"
+            android:layout_columnSpan="2"
+            android:text="0"/>
+
+        <Button
+            android:id="@+id/dot"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="2"
+            android:text="." />
+
+    </GridLayout>
+
+</LinearLayout>

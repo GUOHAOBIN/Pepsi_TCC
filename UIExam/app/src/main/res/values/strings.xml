@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">UIExam</string>
+    <string-array name="springarr">
+        <item>阿里巴巴</item>
+        <item>百度</item>
+        <item>腾讯</item>
+        <item>字节跳动</item>
+    </string-array>
+</resources>
